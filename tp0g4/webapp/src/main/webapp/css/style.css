@@ -26,3 +26,7 @@
     background-color: #04AA6D;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+}

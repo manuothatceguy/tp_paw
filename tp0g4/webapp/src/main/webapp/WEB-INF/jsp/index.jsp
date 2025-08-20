@@ -10,57 +10,67 @@
         <title>Uber de fletes</title>
     </head>
     <body>
-        
-        <paw:h4 text="WE"/>
-        <paw:h3 text="ARE"/>
-        <paw:h2 text="UBER"/>
-        <paw:h1 text="FLETES"/>
+
+    <paw:h4 text="WE"/>
+    <paw:h3 text="ARE"/>
+    <paw:h2 text="UBER"/>
+    <paw:h1 text="FLETES"/>
+
+    <paw:card bgColor="red">
+        <paw:h1 text="Welcome to Uber Fletes"/>
+        <paw:h2 text="Costo"/>
+        <paw:price value="200" />
+    </paw:card>
+
+    <paw:card bgColor="green">
+        <paw:h1 text="Cambio el color de la card"/>
+    </paw:card>
+
+    <div class="center">
+        <paw:card bgColor="blue" width="50%">
+            <paw:h1 text="Cambio color y ancho de card"/>
+        </paw:card>
+    </div>
+
+    <h1>Formulario de Registro</h1>
+
+    <paw:input
+        type="text"
+        placeholder="Ingrese su nombre"
+        id="username"
+        label="Nombre"
+        required="true"
+        errorMessage="El nombre es obligatorio."
+    />
+    <paw:input
+        type="email"
+        placeholder="Ingrese su email"
+        id="email"
+        label="Email"
+        required="true"
+        errorMessage="Por favor, ingrese un email válido."
+    />
+    <paw:input
+        type="date"
+        id="fecha"
+        label="Fecha de nacimiento"
+    />
 
 
-        <paw:card nombre="WELCOME TO UBER FLETES" precio="AVAILABLE UNTIL" fecha="8/20/2025"/>
+    <paw:button text="Boton lg" size="lg" />
+    <paw:button text="Boton md" size="md" />
+    <paw:button text="Boton sm" size="sm" />
 
+    <paw:button text="Boton Rojo" color="red" />
+    <paw:button text="Boton Amarillo" color="yellow" />
+    <paw:button text="Boton Verde" color="green" />
+    <paw:button text="Boton Azul" color="blue" />
 
-        <h1>Formulario de Registro</h1>
+    <paw:p text="Give us your support. Make a donation" />
 
-        <paw:input 
-            type="text" 
-            placeholder="Ingrese su nombre" 
-            id="username" 
-            label="Nombre"
-            required="true"
-            errorMessage="El nombre es obligatorio."
-        />
-        <paw:input 
-            type="email" 
-            placeholder="Ingrese su email" 
-            id="email" 
-            label="Email"
-            required="true"
-            errorMessage="Por favor, ingrese un email válido."
-        />
-        <paw:input 
-            type="date" 
-            id="fecha" 
-            label="Fecha de nacimiento"
-        />
+    <paw:p text="We suggest:"></paw:p>
 
-
-        <paw:button text="Boton lg" size="lg" />
-        <paw:button text="Boton md" size="md" />
-        <paw:button text="Boton sm" size="sm" />
-
-        <paw:button text="Boton Rojo" color="red" />
-        <paw:button text="Boton Amarillo" color="yellow" />
-        <paw:button text="Boton Verde" color="green" />
-        <paw:button text="Boton Azul" color="blue" />
-
-        <paw:p text="Give us your support. Make a donation" />
-
-        <paw:p text="alias:manuOtha" />
-
-        <paw:p text="We suggest:"></paw:p>
-
-        <paw:precio value="1000"/>
+    <paw:price value="1000"/>
 
     </body>
 </html>
