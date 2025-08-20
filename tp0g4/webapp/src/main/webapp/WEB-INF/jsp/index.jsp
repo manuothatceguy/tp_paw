@@ -11,10 +11,46 @@
     </head>
     <body>
 
-    <paw:h4 text="WE"/>
-    <paw:h3 text="ARE"/>
-    <paw:h2 text="UBER"/>
-    <paw:h1 text="FLETES"/>
+    <paw:h4 text="Hola soy h4"/>
+    <paw:h3 text="Hola soy h3"/>
+    <paw:h2 text="Hola soy h2"/>
+    <paw:h1 text="Hola soy h1"/>
+
+
+    <h1>Formulario de Registro</h1>
+
+    <paw:input
+            type="text"
+            placeholder="Ingrese su nombre"
+            id="username"
+            label="Nombre"
+            required="true"
+            errorMessage="El nombre es obligatorio."
+    />
+    <paw:input
+            type="email"
+            placeholder="Ingrese su email"
+            id="email"
+            label="Email"
+            required="true"
+            errorMessage="Por favor, ingrese un email válido."
+    />
+    <paw:input
+            type="date"
+            id="fecha"
+            label="Fecha de nacimiento"
+    />
+
+
+    <paw:button text="Boton lg" size="lg" />
+    <paw:button text="Boton md" size="md" />
+    <paw:button text="Boton sm" size="sm" />
+
+    <paw:button text="Boton Rojo" color="red" />
+    <paw:button text="Boton Amarillo" color="yellow" />
+    <paw:button text="Boton Verde" color="green" />
+    <paw:button text="Boton Azul" color="blue" />
+
 
     <paw:card bgColor="red">
         <paw:h1 text="Welcome to Uber Fletes"/>
@@ -31,40 +67,6 @@
             <paw:h1 text="Cambio color y ancho de card"/>
         </paw:card>
     </div>
-
-    <h1>Formulario de Registro</h1>
-
-    <paw:input
-        type="text"
-        placeholder="Ingrese su nombre"
-        id="username"
-        label="Nombre"
-        required="true"
-        errorMessage="El nombre es obligatorio."
-    />
-    <paw:input
-        type="email"
-        placeholder="Ingrese su email"
-        id="email"
-        label="Email"
-        required="true"
-        errorMessage="Por favor, ingrese un email válido."
-    />
-    <paw:input
-        type="date"
-        id="fecha"
-        label="Fecha de nacimiento"
-    />
-
-
-    <paw:button text="Boton lg" size="lg" />
-    <paw:button text="Boton md" size="md" />
-    <paw:button text="Boton sm" size="sm" />
-
-    <paw:button text="Boton Rojo" color="red" />
-    <paw:button text="Boton Amarillo" color="yellow" />
-    <paw:button text="Boton Verde" color="green" />
-    <paw:button text="Boton Azul" color="blue" />
 
     <paw:p text="Give us your support. Make a donation" />
 
