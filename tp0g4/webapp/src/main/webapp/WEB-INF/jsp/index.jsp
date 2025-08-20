@@ -3,8 +3,10 @@
 <%@ taglib tagdir="/WEB-INF/tags" prefix="paw" %>
 <html>
     <head>
-        <link rel="stylesheet" href="./css/components.css">
-        <link rel="stylesheet" href="./css/style.css">
+		<c:url value="/css/components.css" var="componentsCss" />
+		<c:url value="/css/style.css" var="styleCss" />
+        <link rel="stylesheet" type="text/css" href="${componentsCss}">
+        <link rel="stylesheet" type="text/css" href="${styleCss}">
         <title>Uber de fletes</title>
     </head>
     <body> 
