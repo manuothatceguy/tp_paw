@@ -12,44 +12,45 @@
     border: 1px solid transparent;
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     user-select: none;
-    background-color: #66a3e1;
-    color: #fff;  
 }
 
 .btn:hover {
     text-decoration: none;
 }
+
 .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
+
 .btn:disabled {
     opacity: 0.65;
     cursor: not-allowed;
 }
-/* Button Sizes */
+
 .btn-sm {
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
     border-radius: 0.2rem;
     font-weight: 400;
-
 }
+
 .btn-md {
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     border-radius: 0.25rem;
     font-weight: 800;
-
 }
+
 .btn-lg {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     border-radius: 0.3rem;
     font-weight: 1000;
 }
+
 .card{
  padding: 0.375rem 0.75rem;
  border: 1px solid transparent;
@@ -86,4 +87,89 @@
     color: #04AA6D;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.input-container {
+  position: relative; 
+  display: flex;
+  align-items: center; 
+  margin-bottom: 25px; 
+}
+
+.input {
+  border: 2px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-label {
+  margin-left: 10px; 
+  font-family: sans-serif;
+}
+
+.input:focus {
+  border-color: #007bff; 
+}
+
+.input:invalid:not(:placeholder-shown) {
+  border-color: #dc3545; 
+}
+
+.error-message {
+  display: none;
+  color: #dc3545;
+  font-size: 14px;
+  position: absolute;
+  bottom: -20px; 
+  left: 0;
+}
+
+.input:invalid:not(:placeholder-shown) + .input-label + .error-message,
+.input:invalid:not(:placeholder-shown) + .error-message {
+  display: block;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-red:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-green {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+
+.btn-yellow {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529; 
+}
+
+.btn-yellow:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-blue {
+    background-color: #007bff; 
+    border-color: #007bff;
+    color: #fff; 
+}
+
+.btn-blue:hover {
+    background-color: #0069d9; 
+    border-color: #0062cc;
 }

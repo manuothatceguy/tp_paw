@@ -3,7 +3,7 @@
 
 <%@ attribute name="nombre" required="true" %>
 <%@ attribute name="precio" required="true" %>
-<%@ attribute name="fecha" required="true" %>
+<%@ attribute name="fecha" required="ture" %>
 <%@ attribute name="cssClass" required="false" %>
 
 <c:set var="crdCssClass" value="${not empty cssClass ? cssClass : ''}" />
