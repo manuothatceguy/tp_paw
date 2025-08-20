@@ -10,20 +10,22 @@
         <title>Uber de fletes</title>
     </head>
     <body>
-        <nav class="navbar">
-            <ul>
-                <li><a class="active" href="<c:url value='/'/>">Home</a></li>
-                <li><a href="<c:url value='/'/>">News</a></li>
-                <li><a href="<c:url value='/'/>">Contact</a></li>
-                <li><a href="<c:url value='/'/>">About</a></li>
-            </ul>
-        </nav>
+        <paw:h1 text="Texto h1"/>
+        <paw:h2 text="Texto h2"/>
+        <paw:h3 text="Texto h3"/>
+        <paw:h4 text="Texto h4"/>
 
-        <paw:button text="Click here to become a " size="lg" />        
-        <paw:h2 text="Hello PAW"/>
+        <paw:button text="Boton lg" size="lg" />
+        <paw:button text="Boton md" size="md" />
+        <paw:button text="Boton sm" size="sm" />
+
+        <paw:button text="Boton Rojo" color="red" />
+
         <paw:p text="Welcome to the Uber de fletes application." />
 
-        <paw:card nombre="Camion" precio="2500por hora" fecha="3/4/2025"/>
+
+        <paw:precio value="1000"/>
+        <paw:card nombre="Camion" precio="2500 por hora" fecha="3/4/2025"/>
         
     </body>
 </html>
